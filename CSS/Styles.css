@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,900;1,100;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    
-}
-.hero{
-background-image: url(../Assets/fondopagina.jpg);
-height: 90vh;
 }
 
-.logo{
-width: 100px;
-height: 80px;
+.hero {
+    background-image: url(../assets/fondopagina.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
 }
-.fondo-texto{
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.fondo-texto {
     background-color: rgba(0, 0, 0, 0.674);
 }
-.imagenes-galeria{
+
+.imagenes-galeria {
     height: 200px;
-    width: 300px
+    width: 300px;
 }

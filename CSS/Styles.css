@@ -7,13 +7,13 @@
     
 }
 .hero{
-background-image: url(../assets/fondopagina.jpg);
+background-image: url(../Assets/fondopagina.jpg);
 height: 90vh;
 }
 
 .logo{
-    height: 80px;
-    width: 100px;
+width: 100px;
+height: 80px;
 }
 .fondo-texto{
     background-color: rgba(0, 0, 0, 0.674);
